@@ -1167,6 +1167,8 @@ button:hover {
 
 .small_yellow_border_main {
     padding-left: 20px;
+    /* padding-top: 10px; */
+
 }
 
 .bachelor {
@@ -1191,11 +1193,17 @@ button:hover {
     font-size: 16px;
     line-height: 24px;
     margin: 0;
+    /* padding-top: 10px; */
+
 }
 
 .small_yellow_border {
     border: 2px solid var(--card-text);
     border-radius: 100%;
+    /* padding-top: 10px; */
+    /* padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px; */
     padding: 5px;
     background-color: var(--card-background);
 }
@@ -1205,6 +1213,8 @@ button:hover {
     height: 10px;
     border-radius: 100%;
     background-color: #55E6A5;
+    /* padding-top: 10px; */
+
 }
 
 .experience_main_text {
@@ -1216,6 +1226,7 @@ button:hover {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 15px;
+    /* padding-top: 10px; */
 }
 
 .company_logo {
@@ -1227,7 +1238,12 @@ button:hover {
     font-size: 18px;
     line-height: 24px;
     margin: 0;
+    /* padding-top: 10px; */
 }
+
+/* section.tabcontent.tab-active#resume {
+    min-height: fit-content !important;
+} */
 
 /*-----------------------[ 12.Services Section CSS ]------------------------*/
 .services_box_main {
@@ -2682,4 +2698,21 @@ ul {
 
 #artbeat-github-link {
     color: black
+}
+
+.portfolio_gh_link {
+    color: #55E6A5 !important;
+}
+
+.portfolio_gh_link > a {
+    text-decoration: none;
+    color: #55E6A5 !important;
+}
+
+i#wellfound.fa-solid.fa-w::before {
+    /* font-size: 20px !important; */
+}
+
+.wellfound {
+    font-size: 32px !important;
 }
